@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LusoDataApp.LoginIn">
+
+	<StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="FillAndExpand" >
+		
+		<ImageButton Source="VoltarButton2.png" BackgroundColor="White"   HorizontalOptions="Start" Aspect="Fill" Clicked="BackToMainPage"></ImageButton>
+
+		<Image Source="LusoDataLogo.png"></Image>
+
+
+		<Entry x:Name="entryEmail" VerticalOptions="Center" Placeholder="Email" TextColor="#155C8F"  BackgroundColor="White"  ></Entry>
+		<Label></Label>
+        <Entry x:Name="entrySenha" VerticalOptions="Center" Placeholder="Senha" IsPassword="True" TextColor="#155C8F"   BackgroundColor="White"></Entry>
+            <Label></Label>
+		<Button VerticalOptions="Center" Text="Entrar" TextColor="#155C8F"  BorderColor="#155C8F" BorderWidth="1.5" CornerRadius="1" BackgroundColor="White" Clicked="ToAppMainPage" ></Button>
+		
+
+	</StackLayout>
+
+
+
+
+</ContentPage>

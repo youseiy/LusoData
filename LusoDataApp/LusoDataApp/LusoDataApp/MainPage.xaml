@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LusoDataApp.MainPage">
+
+    <StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="FillAndExpand" >
+        <Image Source="LusoDataLogo.png">   </Image>
+
+
+        <Button VerticalOptions="Center" Text="Entrar" TextColor="#155C8F"  BorderColor="#155C8F" BorderWidth="1.5" CornerRadius="1" BackgroundColor="White" Clicked="ToLoginInPage" ></Button>
+        <Label></Label>
+        <Button VerticalOptions="Center" Text="Registar" TextColor="#155C8F"  BorderColor="#155C8F" BorderWidth="1.5" CornerRadius="1" BackgroundColor="White" Clicked="ToSignUpPage"></Button>
+	    <Label></Label>
+
+        <ImageButton Source="LogoGoogle.png" 
+                     BackgroundColor="White"
+                     BorderColor="Black"
+                     ></ImageButton>
+
+    </StackLayout>
+
+</ContentPage>
